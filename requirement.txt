@@ -16,7 +16,6 @@ xgboost==1.6.2
 pandas
 PyYAML
 numpy
-fsspec
 scikit-learn
 apache-airflow
 -e .
