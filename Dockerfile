@@ -5,7 +5,7 @@ COPY . /app/
 WORKDIR /app/
 RUN pip3 install -r requirement.txt
 ENV AIRFLOW_HOME="/app/airflow"
-ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT_1000
+ENV AIRFLOW_CORE_DAGBAG_IMPORT_TIMEOUT=1000
 ENV AIRFLOW_CORE_ENABLE_XCOM_PICKLING=True
 RUN airflow db init
 RUN airflow user create -e bhevendra2@gmail.com -f Bhevendra -l Gurjar -p admin -r Admin -u admin
