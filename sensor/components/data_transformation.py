@@ -11,7 +11,7 @@ from sklearn.preprocessing import LabelEncoder
 from imblearn.combine import SMOTETomek
 from sklearn.impute import SimpleImputer
 from sklearn.preprocessing import RobustScaler
-form sensor.config import TARGET_COLUMN
+from sensor.config import TARGET_COLUMN
 
 
 

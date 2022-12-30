@@ -66,3 +66,4 @@ class DataIngestion:
 
         except Exception as e:
             raise SensorException(error_message=e, error_detail=sys)
+
