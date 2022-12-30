@@ -12,4 +12,4 @@ RUN airflow user create -e bhevendra2@gmail.com -f Bhevendra -l Gurjar -p admin 
 RUN chmod 777 start.sh
 RUN apt update -y && apt instll awscli -y
 ENTRYPOINT ["/bin/sh"]
-CMD["start.sh"]
+CMD ["start.sh"]
